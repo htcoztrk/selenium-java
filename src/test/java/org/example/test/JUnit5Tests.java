@@ -41,7 +41,7 @@ public class JUnit5Tests {
                 dc.setPlatform(Platform.WINDOWS);
                 dc.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
                 dc.setCapability(CapabilityType.ACCEPT_INSECURE_CERTS, true);
-                dc.setCapability("testinium:key", "mebuca:afbe7d859ad86b5149f75077c52035e3");
+                dc.setCapability("testinium:key", key);
                 dc.setCapability("testinium:testID", testID);
                 dc.setCapability("testinium:takesScreenshot", true);
                 dc.setCapability("testinium:recordsVideo", false);

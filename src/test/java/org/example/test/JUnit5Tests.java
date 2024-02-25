@@ -38,7 +38,7 @@ public class JUnit5Tests {
                 System.out.println("MAKSAHIN: AppToken: " + System.getProperty("appToken"));
                 // cloud plugin
                 dc = DesiredCapabilities.chrome();
-                dc.setPlatform(Platform.WINDOWS);
+                dc.setPlatform(Platform.MAC);
                 dc.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
                 dc.setCapability(CapabilityType.ACCEPT_INSECURE_CERTS, true);
                 dc.setCapability("testinium:key", key);

@@ -23,7 +23,7 @@ public class JUnit5Tests {
 
     @BeforeAll
     public static void setup() throws MalformedURLException {
-        final String hubDocker = "http://host.docker.internal:4444/wd/hub";
+        final String hubDocker = "http://172.25.1.25:4444/wd/hub";
         DesiredCapabilities dc = DesiredCapabilities.firefox();
         final String hubLocal = "http://localhost:4444/wd/hub";
         final String hubCloudProd = "http://hub.testinium.io/wd/hub";

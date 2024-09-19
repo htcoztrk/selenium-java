@@ -26,7 +26,7 @@ public class Junit4Tests {
         final String hubLocal = "http://localhost:4444/wd/hub";
         final String hubCloudProd = "http://hub.testinium.io/wd/hub";
 
-        final String hubDocker = "http://host.docker.internal:4444/wd/hub";
+        final String hubDocker = "http://172.25.1.25:4444/wd/hub";
         final String key = System.getProperty("key");
         final String testID = System.getProperty("testID");
 

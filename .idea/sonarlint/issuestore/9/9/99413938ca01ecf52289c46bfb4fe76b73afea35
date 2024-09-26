@@ -1,0 +1,7 @@
+
+Ÿ
+java:S3577"‰Rename class "DataDriven" to match the regular expression: '^((Test|IT)[a-zA-Z0-9_]+|[A-Z][a-zA-Z0-9_]*(Test|Tests|TestCase|IT|ITCase))$'(Ûú<
+3
+java:S5786"Remove this 'public' modifier.(Ûú<
+2
+java:S5785"Use assertNotEquals instead.(Á†åÆ

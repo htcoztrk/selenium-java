@@ -78,6 +78,12 @@ public class JUnit5Tests {
         driver.getPageSource();
     }
 
+    @Test
+    public void goToTrendyolWithJunit5Http() throws Exception {
+        driver.get("https://www.trendyol.com/");
+        Thread.sleep(5000);
+        driver.getPageSource();
+    }
     @AfterAll
     public static void tearDown() throws Exception {
         driver.quit();

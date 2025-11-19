@@ -77,6 +77,18 @@ public class Junit4Tests {
         driver.getPageSource();
     }
 
+    @Test
+    public void goToEveWithJunit4Http() throws Exception {
+        driver.get("https://www.eveshop.com.tr/");
+        Thread.sleep(5000);
+        driver.getPageSource();
+    }
+    @Test
+    public void goToAmazonWithJunit4Http() throws Exception {
+        driver.get("https://www.amazon.com.tr");
+        Thread.sleep(5000);
+        driver.getPageSource();
+    }
     @After
     public void tearDown() throws Exception {
         driver.quit();

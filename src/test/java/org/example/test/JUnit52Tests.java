@@ -2,6 +2,7 @@ package org.example.test;
 
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
@@ -90,6 +91,15 @@ public class JUnit52Tests {
         Thread.sleep(5000);
         driver.getPageSource();
     }
+
+    @Disabled("Geçici olarak kapalı")
+    @Test
+    public void skiptestdeneme() throws Exception {
+        driver.get("https://www.amazon.com.tr");
+        Thread.sleep(5000);
+        driver.getPageSource();
+    }
+
     @AfterAll
     public static void tearDown() throws Exception {
         driver.quit();
